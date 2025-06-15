@@ -1,0 +1,57 @@
+CREATE OR REPLACE PROCEDURE inserer_resultat_auto()
+RETURNS STRING
+LANGUAGE JAVASCRIPT
+AS
+$$
+var calendrier_id = null;
+
+// Trouver le prochain calendrier_id sans match
+var sql = `
+    SELECT calendrier_id
+    FROM premier_league.calendrier c
+    WHERE NOT EXISTS (
+        SELECT 1 FROM premier_league.match m
+        WHERE m.calendrier_id = c.calendrier_id
+    )
+    ORDER BY date_match, heure_match
+    LIMIT 1
+`;
+var statement1 = snowflake.createStatement({sqlText: sql});
+var result1 = statement1.execute();
+if (result1.next()) {
+    calendrier_id = result1.getColumnValue(1);
+} else {
+    return '❌ Aucun match à insérer.';
+}
+
+// Générer un match_id
+var sql2 = `SELECT COALESCE(MAX(match_id), 0) + 1 FROM premier_league.match`;
+var statement2 = snowflake.createStatement({sqlText: sql2});
+var result2 = statement2.execute();
+result2.next();
+var match_id = result2.getColumnValue(1);
+
+// Score aléatoire (entier 0-5)
+var score_dom = Math.floor(Math.random() * 6);
+var score_ext = Math.floor(Math.random() * 6);
+
+// Insertion
+var sql3 = `
+    INSERT INTO premier_league.match (
+        match_id, calendrier_id, score_dom, score_ext, arbitre_id
+    )
+    VALUES (${match_id}, ${calendrier_id}, ${score_dom}, ${score_ext}, 1)
+`;
+var statement3 = snowflake.createStatement({sqlText: sql3});
+statement3.execute();
+
+return '✅ Match inséré avec succès.';
+$$;
+
+CREATE OR REPLACE TASK tache_inserer_resultats
+WAREHOUSE = COMPUTE_WH
+SCHEDULE = '2 MINUTE'
+AS
+CALL inserer_resultat_auto();
+
+ALTER TASK tache_inserer_resultats RESUME;

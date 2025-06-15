@@ -1,0 +1,421 @@
+joueur_id,nom_joueur,poste,age,nationalite,equipe_id,numero_maillot,pied_fort
+1,André Onana,Attaquant,36.0,Anglais,1,37,Gauche
+2,Diogo Dalot,Défenseur,23.0,Néerlandais,1,18,Gauche
+3,Luke Shaw,Attaquant,20.0,Espagnol,1,56,Gauche
+4,Harry Maguire,Gardien,22.0,Français,1,90,Droite
+5,Lisandro Martínez,Milieu,35.0,Espagnol,1,14,Gauche
+6,Casemiro,Attaquant,30.0,Espagnol,1,43,Droite
+7,Bruno Fernandes,Défenseur,34.0,Espagnol,1,60,Gauche
+8,Christian Eriksen,Défenseur,31.0,Portugais,1,31,Droite
+9,Marcus Rashford,Défenseur,23.0,Néerlandais,1,15,Gauche
+10,Antony,Défenseur,24.0,Néerlandais,1,63,Droite
+11,Rasmus Højlund,Défenseur,24.0,Brésilien,1,18,Gauche
+12,Raphaël Varane,Gardien,33.0,Français,1,59,Droite
+13,Aaron Wan-Bissaka,Gardien,29.0,Néerlandais,1,90,Gauche
+14,Scott McTominay,Gardien,36.0,Brésilien,1,98,Gauche
+15,Kobbie Mainoo,Gardien,27.0,Néerlandais,1,65,Droite
+16,Mason Mount,Milieu,22.0,Anglais,1,9,Droite
+17,Jadon Sancho,Attaquant,29.0,Néerlandais,1,48,Droite
+18,Victor Lindelöf,Attaquant,26.0,Anglais,1,50,Droite
+19,Tyrell Malacia,Gardien,36.0,Brésilien,1,34,Droite
+20,Sofyan Amrabat,Gardien,36.0,Brésilien,1,60,Gauche
+21,Aaron Ramsdale,Milieu,23.0,Néerlandais,2,64,Gauche
+22,Ben White,Milieu,23.0,Brésilien,2,9,Droite
+23,William Saliba,Milieu,19.0,Portugais,2,44,Droite
+24,Gabriel Magalhães,Gardien,19.0,Portugais,2,17,Droite
+25,Oleksandr Zinchenko,Milieu,26.0,Néerlandais,2,99,Droite
+26,Thomas Partey,Défenseur,23.0,Anglais,2,15,Gauche
+27,Declan Rice,Défenseur,25.0,Anglais,2,52,Gauche
+28,Martin Ødegaard,Milieu,34.0,Portugais,2,50,Gauche
+29,Bukayo Saka,Gardien,21.0,Portugais,2,55,Droite
+30,Gabriel Jesus,Attaquant,33.0,Brésilien,2,64,Gauche
+31,Kai Havertz,Gardien,30.0,Français,2,25,Droite
+32,Leandro Trossard,Milieu,19.0,Néerlandais,2,2,Droite
+33,Takehiro Tomiyasu,Attaquant,35.0,Espagnol,2,58,Gauche
+34,Jakub Kiwior,Attaquant,23.0,Français,2,70,Gauche
+35,Fabio Vieira,Défenseur,26.0,Néerlandais,2,90,Gauche
+36,Emile Smith Rowe,Milieu,34.0,Portugais,2,75,Gauche
+37,Jorginho,Milieu,36.0,Néerlandais,2,15,Droite
+38,Mohamed Elneny,Attaquant,34.0,Néerlandais,2,10,Gauche
+39,Reiss Nelson,Attaquant,35.0,Néerlandais,2,90,Droite
+40,Cedric Soares,Milieu,23.0,Espagnol,2,83,Droite
+41,Aaron Ramsdale,Milieu,27.0,Français,3,83,Droite
+42,Ben White,Défenseur,33.0,Néerlandais,3,63,Droite
+43,William Saliba,Gardien,21.0,Néerlandais,3,36,Droite
+44,Gabriel Magalhães,Milieu,24.0,Brésilien,3,23,Gauche
+45,Oleksandr Zinchenko,Attaquant,35.0,Portugais,3,30,Droite
+46,Thomas Partey,Milieu,24.0,Néerlandais,3,90,Droite
+47,Declan Rice,Attaquant,32.0,Français,3,70,Gauche
+48,Martin Ødegaard,Attaquant,35.0,Néerlandais,3,97,Gauche
+49,Bukayo Saka,Défenseur,18.0,Anglais,3,74,Gauche
+50,Gabriel Jesus,Attaquant,20.0,Français,3,22,Gauche
+51,Kai Havertz,Gardien,21.0,Portugais,3,74,Droite
+52,Leandro Trossard,Défenseur,26.0,Néerlandais,3,31,Gauche
+53,Takehiro Tomiyasu,Attaquant,20.0,Brésilien,3,38,Droite
+54,Jakub Kiwior,Défenseur,23.0,Français,3,24,Droite
+55,Fabio Vieira,Attaquant,34.0,Brésilien,3,30,Gauche
+56,Emile Smith Rowe,Défenseur,19.0,Anglais,3,81,Droite
+57,Jorginho,Milieu,31.0,Anglais,3,70,Droite
+58,Mohamed Elneny,Défenseur,22.0,Brésilien,3,28,Droite
+59,Reiss Nelson,Milieu,33.0,Espagnol,3,10,Droite
+60,Cedric Soares,Attaquant,27.0,Français,3,10,Gauche
+61,André Onana,Défenseur,35.0,Français,4,58,Gauche
+62,Diogo Dalot,Gardien,34.0,Portugais,4,81,Gauche
+63,Luke Shaw,Attaquant,30.0,Portugais,4,56,Gauche
+64,Harry Maguire,Attaquant,36.0,Portugais,4,21,Droite
+65,Lisandro Martínez,Milieu,22.0,Espagnol,4,89,Gauche
+66,Casemiro,Défenseur,33.0,Anglais,4,69,Droite
+67,Bruno Fernandes,Défenseur,21.0,Espagnol,4,94,Droite
+68,Christian Eriksen,Défenseur,19.0,Brésilien,4,80,Droite
+69,Marcus Rashford,Défenseur,25.0,Portugais,4,96,Droite
+70,Antony,Milieu,27.0,Anglais,4,43,Droite
+71,Rasmus Højlund,Défenseur,35.0,Portugais,4,9,Gauche
+72,Raphaël Varane,Milieu,27.0,Anglais,4,91,Gauche
+73,Aaron Wan-Bissaka,Défenseur,26.0,Portugais,4,62,Droite
+74,Scott McTominay,Gardien,35.0,Brésilien,4,43,Gauche
+75,Kobbie Mainoo,Gardien,32.0,Espagnol,4,32,Gauche
+76,Mason Mount,Milieu,24.0,Espagnol,4,89,Gauche
+77,Jadon Sancho,Gardien,27.0,Espagnol,4,83,Droite
+78,Victor Lindelöf,Gardien,30.0,Français,4,72,Droite
+79,Tyrell Malacia,Défenseur,32.0,Français,4,52,Droite
+80,Sofyan Amrabat,Milieu,34.0,Brésilien,4,57,Droite
+81,André Onana,Milieu,26.0,Français,5,99,Droite
+82,Diogo Dalot,Gardien,19.0,Portugais,5,20,Gauche
+83,Luke Shaw,Attaquant,26.0,Espagnol,5,26,Gauche
+84,Harry Maguire,Défenseur,24.0,Anglais,5,46,Gauche
+85,Lisandro Martínez,Milieu,26.0,Brésilien,5,98,Gauche
+86,Casemiro,Milieu,33.0,Espagnol,5,93,Droite
+87,Bruno Fernandes,Attaquant,35.0,Français,5,47,Gauche
+88,Christian Eriksen,Défenseur,31.0,Espagnol,5,24,Gauche
+89,Marcus Rashford,Défenseur,18.0,Brésilien,5,19,Gauche
+90,Antony,Attaquant,34.0,Espagnol,5,13,Droite
+91,Rasmus Højlund,Attaquant,26.0,Portugais,5,24,Gauche
+92,Raphaël Varane,Défenseur,21.0,Brésilien,5,86,Gauche
+93,Aaron Wan-Bissaka,Attaquant,30.0,Brésilien,5,36,Gauche
+94,Scott McTominay,Milieu,24.0,Espagnol,5,49,Droite
+95,Kobbie Mainoo,Milieu,35.0,Anglais,5,92,Gauche
+96,Mason Mount,Attaquant,22.0,Brésilien,5,44,Gauche
+97,Jadon Sancho,Milieu,23.0,Espagnol,5,12,Gauche
+98,Victor Lindelöf,Attaquant,26.0,Brésilien,5,27,Gauche
+99,Tyrell Malacia,Défenseur,36.0,Anglais,5,14,Droite
+100,Sofyan Amrabat,Attaquant,21.0,Portugais,5,46,Gauche
+101,André Onana,Milieu,29.0,Néerlandais,6,8,Droite
+102,Diogo Dalot,Attaquant,28.0,Français,6,29,Droite
+103,Luke Shaw,Attaquant,27.0,Anglais,6,74,Droite
+104,Harry Maguire,Gardien,22.0,Portugais,6,33,Droite
+105,Lisandro Martínez,Attaquant,21.0,Brésilien,6,93,Droite
+106,Casemiro,Défenseur,31.0,Espagnol,6,79,Gauche
+107,Bruno Fernandes,Attaquant,18.0,Brésilien,6,83,Gauche
+108,Christian Eriksen,Milieu,26.0,Portugais,6,1,Droite
+109,Marcus Rashford,Attaquant,36.0,Portugais,6,39,Droite
+110,Antony,,36.0,Espagnol,6,66,Gauche
+111,Rasmus Højlund,Milieu,19.0,Portugais,6,35,Gauche
+112,Raphaël Varane,Défenseur,34.0,Néerlandais,6,79,Gauche
+113,Aaron Wan-Bissaka,Gardien,21.0,Brésilien,6,35,Droite
+114,Scott McTominay,Défenseur,19.0,Néerlandais,6,27,Gauche
+115,Kobbie Mainoo,Défenseur,35.0,Espagnol,6,37,Gauche
+116,Mason Mount,Défenseur,30.0,Français,6,89,Droite
+117,Jadon Sancho,Attaquant,23.0,Anglais,6,75,Gauche
+118,Victor Lindelöf,Défenseur,20.0,Néerlandais,6,55,Gauche
+119,Tyrell Malacia,Milieu,21.0,Espagnol,6,13,Droite
+120,Sofyan Amrabat,Attaquant,36.0,Anglais,6,58,Droite
+121,André Onana,Milieu,24.0,Brésilien,7,43,Droite
+122,Diogo Dalot,Défenseur,18.0,Espagnol,7,91,Gauche
+123,Luke Shaw,Gardien,18.0,Anglais,7,55,Gauche
+124,Harry Maguire,Gardien,31.0,Brésilien,7,76,Droite
+125,Lisandro Martínez,Gardien,26.0,Néerlandais,7,3,Droite
+126,Casemiro,Milieu,27.0,Portugais,7,73,Droite
+127,Bruno Fernandes,Gardien,35.0,Néerlandais,7,17,Gauche
+128,Christian Eriksen,Milieu,21.0,Brésilien,7,45,Droite
+129,Marcus Rashford,Gardien,30.0,Espagnol,7,69,Droite
+130,Antony,Attaquant,27.0,Brésilien,7,72,Droite
+131,Rasmus Højlund,Attaquant,26.0,Français,7,19,Gauche
+132,Raphaël Varane,Défenseur,23.0,Espagnol,7,16,Gauche
+133,Aaron Wan-Bissaka,Attaquant,19.0,Espagnol,7,22,Gauche
+134,Scott McTominay,Milieu,32.0,Espagnol,7,5,Droite
+135,Kobbie Mainoo,Défenseur,34.0,Néerlandais,7,87,Droite
+136,Mason Mount,Défenseur,28.0,Brésilien,7,25,Gauche
+137,Jadon Sancho,Attaquant,19.0,Espagnol,7,12,Gauche
+138,Victor Lindelöf,Défenseur,25.0,Néerlandais,7,96,Droite
+139,Tyrell Malacia,Défenseur,34.0,Français,7,98,Droite
+140,Sofyan Amrabat,Gardien,23.0,Brésilien,7,80,Gauche
+141,Aaron Ramsdale,,29.0,Portugais,8,78,Droite
+142,Ben White,Attaquant,21.0,Portugais,8,99,Gauche
+143,William Saliba,Attaquant,31.0,Néerlandais,8,24,Droite
+144,Gabriel Magalhães,Défenseur,19.0,Espagnol,8,83,Gauche
+145,Oleksandr Zinchenko,Gardien,30.0,Brésilien,8,50,Gauche
+146,Thomas Partey,Milieu,36.0,Brésilien,8,35,Gauche
+147,Declan Rice,Gardien,26.0,Espagnol,8,74,Droite
+148,Martin Ødegaard,Défenseur,24.0,Espagnol,8,30,Gauche
+149,Bukayo Saka,Gardien,36.0,Portugais,8,93,Droite
+150,Gabriel Jesus,Milieu,21.0,Néerlandais,8,15,Droite
+151,Kai Havertz,Défenseur,23.0,Anglais,8,28,Gauche
+152,Leandro Trossard,Attaquant,28.0,Anglais,8,77,Droite
+153,Takehiro Tomiyasu,Défenseur,35.0,Espagnol,8,60,Droite
+154,Jakub Kiwior,Gardien,22.0,Français,8,49,Droite
+155,Fabio Vieira,Milieu,33.0,Néerlandais,8,1,Droite
+156,Emile Smith Rowe,Milieu,35.0,Néerlandais,8,95,Gauche
+157,Jorginho,Milieu,27.0,Portugais,8,10,Gauche
+158,Mohamed Elneny,Gardien,19.0,Portugais,8,52,Gauche
+159,Reiss Nelson,Gardien,34.0,Espagnol,8,24,Droite
+160,Cedric Soares,Milieu,34.0,Portugais,8,29,Gauche
+161,André Onana,Milieu,32.0,Brésilien,9,15,Gauche
+162,Diogo Dalot,Gardien,22.0,Français,9,20,Droite
+163,Luke Shaw,Attaquant,24.0,Néerlandais,9,63,Gauche
+164,Harry Maguire,Gardien,27.0,Français,9,30,Gauche
+165,Lisandro Martínez,Attaquant,36.0,Néerlandais,9,17,Droite
+166,Casemiro,Milieu,24.0,Espagnol,9,9,Gauche
+167,Bruno Fernandes,Milieu,31.0,Brésilien,9,19,Gauche
+168,Christian Eriksen,Défenseur,31.0,Français,9,6,Droite
+169,Marcus Rashford,Défenseur,23.0,Néerlandais,9,58,Droite
+170,Antony,Milieu,30.0,Anglais,9,16,Gauche
+171,Rasmus Højlund,Attaquant,24.0,Français,9,36,Gauche
+172,Raphaël Varane,Gardien,32.0,Néerlandais,9,30,Gauche
+173,Aaron Wan-Bissaka,Attaquant,20.0,Espagnol,9,24,Gauche
+174,Scott McTominay,Défenseur,30.0,Brésilien,9,9,Droite
+175,Kobbie Mainoo,Défenseur,25.0,Brésilien,9,87,Gauche
+176,Mason Mount,Attaquant,,Brésilien,9,73,Droite
+177,Jadon Sancho,Défenseur,23.0,Néerlandais,9,71,Gauche
+178,Victor Lindelöf,Gardien,32.0,Anglais,9,89,Gauche
+179,Tyrell Malacia,Défenseur,35.0,Néerlandais,9,74,Gauche
+180,Sofyan Amrabat,Défenseur,35.0,Espagnol,9,49,Gauche
+181,André Onana,Milieu,27.0,Portugais,10,75,Droite
+182,Diogo Dalot,Milieu,26.0,Brésilien,10,77,Droite
+183,Luke Shaw,Défenseur,34.0,Français,10,32,Droite
+184,Harry Maguire,Défenseur,22.0,Espagnol,10,63,Gauche
+185,Lisandro Martínez,Défenseur,29.0,Français,10,98,Gauche
+186,Casemiro,Attaquant,20.0,Portugais,10,54,Gauche
+187,Bruno Fernandes,Défenseur,21.0,Brésilien,10,17,Droite
+188,Christian Eriksen,Gardien,31.0,Néerlandais,10,34,Droite
+189,Marcus Rashford,Défenseur,31.0,Anglais,10,83,Gauche
+190,Antony,,25.0,Français,10,92,Droite
+191,Rasmus Højlund,Gardien,36.0,Espagnol,10,65,Droite
+192,Raphaël Varane,Attaquant,29.0,Anglais,10,95,Droite
+193,Aaron Wan-Bissaka,Défenseur,,Espagnol,10,60,Gauche
+194,Scott McTominay,Gardien,21.0,Français,10,1,Gauche
+195,Kobbie Mainoo,Milieu,34.0,Français,10,94,Gauche
+196,Mason Mount,Gardien,36.0,Espagnol,10,76,Gauche
+197,Jadon Sancho,Défenseur,33.0,Anglais,10,80,Gauche
+198,Victor Lindelöf,Gardien,36.0,Portugais,10,79,Droite
+199,Tyrell Malacia,Attaquant,21.0,Portugais,10,10,Gauche
+200,Sofyan Amrabat,Attaquant,23.0,Espagnol,10,22,Gauche
+201,Aaron Ramsdale,Gardien,23.0,Anglais,11,48,Gauche
+202,Ben White,Milieu,21.0,Français,11,51,Gauche
+203,William Saliba,Défenseur,34.0,Portugais,11,60,Gauche
+204,Gabriel Magalhães,Gardien,26.0,Anglais,11,36,Gauche
+205,Oleksandr Zinchenko,Défenseur,28.0,Français,11,17,Gauche
+206,Thomas Partey,Attaquant,28.0,Brésilien,11,5,Gauche
+207,Declan Rice,Attaquant,31.0,Brésilien,11,16,Droite
+208,Martin Ødegaard,Défenseur,25.0,Français,11,80,Gauche
+209,Bukayo Saka,Milieu,18.0,Français,11,6,Gauche
+210,Gabriel Jesus,Milieu,36.0,Néerlandais,11,37,Droite
+211,Kai Havertz,Milieu,36.0,Français,11,32,Gauche
+212,Leandro Trossard,Milieu,27.0,Français,11,68,Droite
+213,Takehiro Tomiyasu,Attaquant,23.0,Français,11,93,Droite
+214,Jakub Kiwior,Gardien,36.0,Portugais,11,30,Gauche
+215,Fabio Vieira,Gardien,30.0,Brésilien,11,64,Gauche
+216,Emile Smith Rowe,Attaquant,35.0,Anglais,11,58,Gauche
+217,Jorginho,Défenseur,33.0,Espagnol,11,99,Gauche
+218,Mohamed Elneny,Gardien,34.0,Français,11,8,Gauche
+219,Reiss Nelson,Attaquant,34.0,Néerlandais,11,2,Droite
+220,Cedric Soares,Attaquant,25.0,Espagnol,11,35,Gauche
+221,Aaron Ramsdale,Défenseur,33.0,Anglais,12,46,Gauche
+222,Ben White,Attaquant,29.0,Portugais,12,79,Gauche
+223,William Saliba,Milieu,26.0,Portugais,12,65,Gauche
+224,Gabriel Magalhães,Gardien,32.0,Anglais,12,20,Gauche
+225,Oleksandr Zinchenko,Gardien,25.0,Brésilien,12,60,Gauche
+226,Thomas Partey,Milieu,22.0,Brésilien,12,82,Gauche
+227,Declan Rice,Défenseur,23.0,Néerlandais,12,6,Droite
+228,Martin Ødegaard,Gardien,21.0,Espagnol,12,51,Droite
+229,Bukayo Saka,Gardien,31.0,Portugais,12,18,Droite
+230,Gabriel Jesus,Milieu,24.0,Espagnol,12,5,Droite
+231,Kai Havertz,Gardien,23.0,Français,12,90,Gauche
+232,Leandro Trossard,Milieu,25.0,Anglais,12,63,Droite
+233,Takehiro Tomiyasu,Gardien,26.0,Portugais,12,35,Droite
+234,Jakub Kiwior,Attaquant,19.0,Français,12,52,Gauche
+235,Fabio Vieira,Milieu,33.0,Anglais,12,96,Gauche
+236,Emile Smith Rowe,Milieu,21.0,Néerlandais,12,80,Gauche
+237,Jorginho,Défenseur,29.0,Français,12,59,Droite
+238,Mohamed Elneny,Attaquant,26.0,Portugais,12,44,Droite
+239,Reiss Nelson,Gardien,19.0,Français,12,25,Gauche
+240,Cedric Soares,Gardien,26.0,Portugais,12,40,Droite
+241,André Onana,Gardien,31.0,Français,13,30,Droite
+242,Diogo Dalot,Gardien,20.0,Français,13,74,Droite
+243,Luke Shaw,Défenseur,32.0,Portugais,13,32,Droite
+244,Harry Maguire,Milieu,26.0,Néerlandais,13,67,Gauche
+245,Lisandro Martínez,Gardien,24.0,Anglais,13,12,Droite
+246,Casemiro,Attaquant,35.0,Anglais,13,82,Droite
+247,Bruno Fernandes,Milieu,28.0,Néerlandais,13,46,Gauche
+248,Christian Eriksen,Attaquant,21.0,Anglais,13,75,Droite
+249,Marcus Rashford,Gardien,21.0,Brésilien,13,76,Droite
+250,Antony,Milieu,33.0,Portugais,13,98,Droite
+251,Rasmus Højlund,Gardien,21.0,Néerlandais,13,72,Droite
+252,Raphaël Varane,Gardien,28.0,Portugais,13,48,Gauche
+253,Aaron Wan-Bissaka,Milieu,26.0,Brésilien,13,48,Gauche
+254,Scott McTominay,Défenseur,26.0,Anglais,13,43,Droite
+255,Kobbie Mainoo,Attaquant,20.0,Français,13,80,Gauche
+256,Mason Mount,Attaquant,24.0,Portugais,13,88,Gauche
+257,Jadon Sancho,Défenseur,33.0,Anglais,13,75,Gauche
+258,Victor Lindelöf,Attaquant,24.0,Espagnol,13,26,Droite
+259,Tyrell Malacia,Gardien,36.0,Français,13,6,Gauche
+260,Sofyan Amrabat,Gardien,21.0,Français,13,86,Gauche
+261,André Onana,Gardien,26.0,Français,14,98,Droite
+262,Diogo Dalot,Attaquant,19.0,Anglais,14,32,Gauche
+263,Luke Shaw,,24.0,Espagnol,14,71,Gauche
+264,Harry Maguire,Gardien,34.0,Français,14,35,Droite
+265,Lisandro Martínez,Attaquant,21.0,Anglais,14,10,Droite
+266,Casemiro,Attaquant,27.0,Brésilien,14,5,Droite
+267,Bruno Fernandes,Défenseur,25.0,Anglais,14,51,Gauche
+268,Christian Eriksen,Défenseur,25.0,Portugais,14,76,Droite
+269,Marcus Rashford,Défenseur,34.0,Néerlandais,14,75,Gauche
+270,,Défenseur,18.0,Brésilien,14,39,Droite
+271,Rasmus Højlund,Attaquant,20.0,Portugais,14,12,Droite
+272,Raphaël Varane,Gardien,30.0,Portugais,14,11,Gauche
+273,Aaron Wan-Bissaka,Milieu,29.0,Brésilien,14,35,Droite
+274,Scott McTominay,Défenseur,21.0,Néerlandais,14,75,Gauche
+275,Kobbie Mainoo,Attaquant,33.0,Portugais,14,66,Gauche
+276,Mason Mount,Milieu,24.0,Espagnol,14,38,Gauche
+277,Jadon Sancho,Défenseur,32.0,Français,14,50,Gauche
+278,Victor Lindelöf,Défenseur,31.0,Portugais,14,24,Gauche
+279,,Gardien,31.0,Français,14,34,Gauche
+280,Sofyan Amrabat,Défenseur,31.0,Portugais,14,28,Gauche
+281,André Onana,Défenseur,22.0,Anglais,15,78,Gauche
+282,Diogo Dalot,Défenseur,30.0,Français,15,93,Droite
+283,Luke Shaw,Gardien,24.0,Français,15,19,Gauche
+284,Harry Maguire,Gardien,29.0,Anglais,15,17,Gauche
+285,Lisandro Martínez,Attaquant,27.0,Portugais,15,6,Droite
+286,Casemiro,Milieu,30.0,Espagnol,15,40,Droite
+287,Bruno Fernandes,Défenseur,21.0,Néerlandais,15,67,Gauche
+288,Christian Eriksen,Défenseur,34.0,Anglais,15,52,Gauche
+289,Marcus Rashford,Attaquant,22.0,Néerlandais,15,66,Gauche
+290,Antony,Gardien,36.0,Espagnol,15,85,Droite
+291,Rasmus Højlund,Gardien,18.0,Français,15,86,Droite
+292,Raphaël Varane,Gardien,29.0,Portugais,15,67,Gauche
+293,Aaron Wan-Bissaka,Milieu,36.0,Espagnol,15,15,Gauche
+294,Scott McTominay,Défenseur,23.0,Néerlandais,15,95,Droite
+295,Kobbie Mainoo,Gardien,30.0,Espagnol,15,13,Droite
+296,Mason Mount,Défenseur,21.0,Français,15,95,Gauche
+297,Jadon Sancho,Attaquant,21.0,Français,15,38,Gauche
+298,Victor Lindelöf,Attaquant,21.0,Espagnol,15,42,Droite
+299,Tyrell Malacia,Milieu,18.0,Néerlandais,15,50,Droite
+300,Sofyan Amrabat,Attaquant,29.0,Brésilien,15,42,Droite
+301,André Onana,Milieu,31.0,Français,16,65,Gauche
+302,Diogo Dalot,Milieu,31.0,Brésilien,16,52,Droite
+303,Luke Shaw,Attaquant,32.0,Espagnol,16,90,Gauche
+304,Harry Maguire,Milieu,36.0,Espagnol,16,79,Gauche
+305,Lisandro Martínez,Attaquant,24.0,Néerlandais,16,82,Gauche
+306,Casemiro,Attaquant,24.0,Néerlandais,16,35,Gauche
+307,Bruno Fernandes,Gardien,30.0,Portugais,16,12,Gauche
+308,Christian Eriksen,Attaquant,29.0,Français,16,18,Droite
+309,Marcus Rashford,Défenseur,19.0,Espagnol,16,27,Droite
+310,Antony,Milieu,24.0,Anglais,16,7,Gauche
+311,Rasmus Højlund,Gardien,32.0,Espagnol,16,76,Gauche
+312,Raphaël Varane,Attaquant,32.0,Brésilien,16,47,Gauche
+313,Aaron Wan-Bissaka,Attaquant,35.0,Portugais,16,22,Droite
+314,Scott McTominay,Gardien,20.0,Néerlandais,16,32,Droite
+315,Kobbie Mainoo,Attaquant,31.0,Espagnol,16,63,Gauche
+316,Mason Mount,Défenseur,32.0,Anglais,16,51,Gauche
+317,Jadon Sancho,Gardien,28.0,Anglais,16,90,Droite
+318,Victor Lindelöf,Gardien,,Français,16,97,Droite
+319,Tyrell Malacia,Milieu,30.0,Français,16,19,Gauche
+320,Sofyan Amrabat,Gardien,18.0,Brésilien,16,90,Droite
+321,Aaron Ramsdale,Attaquant,36.0,Néerlandais,17,71,Droite
+322,Ben White,Attaquant,19.0,Français,17,33,Gauche
+323,William Saliba,Défenseur,33.0,Français,17,9,Gauche
+324,Gabriel Magalhães,Attaquant,30.0,Anglais,17,44,Gauche
+325,Oleksandr Zinchenko,Gardien,28.0,Espagnol,17,27,Gauche
+326,Thomas Partey,Milieu,28.0,Anglais,17,97,Gauche
+327,Declan Rice,Milieu,30.0,Néerlandais,17,86,Droite
+328,Martin Ødegaard,Gardien,19.0,Anglais,17,1,Gauche
+329,Bukayo Saka,Défenseur,22.0,Espagnol,17,59,Gauche
+330,Gabriel Jesus,Milieu,19.0,Brésilien,17,53,Droite
+331,Kai Havertz,Milieu,22.0,Anglais,17,61,Droite
+332,Leandro Trossard,Gardien,21.0,Français,17,4,Gauche
+333,Takehiro Tomiyasu,Milieu,20.0,Anglais,17,9,Gauche
+334,Jakub Kiwior,Milieu,34.0,Néerlandais,17,90,Gauche
+335,Fabio Vieira,Défenseur,33.0,Anglais,17,22,Droite
+336,Emile Smith Rowe,Gardien,18.0,Anglais,17,21,Gauche
+337,Jorginho,Gardien,22.0,Brésilien,17,66,Droite
+338,Mohamed Elneny,Gardien,27.0,Néerlandais,17,15,Gauche
+339,Reiss Nelson,Défenseur,33.0,Portugais,17,4,Gauche
+340,Cedric Soares,Attaquant,29.0,Français,17,46,Droite
+341,Aaron Ramsdale,Défenseur,20.0,Brésilien,18,73,Droite
+342,Ben White,Milieu,33.0,Néerlandais,18,63,Droite
+343,William Saliba,Milieu,28.0,Néerlandais,18,6,Droite
+344,Gabriel Magalhães,Attaquant,21.0,Portugais,18,44,Gauche
+345,Oleksandr Zinchenko,Milieu,35.0,Français,18,11,Droite
+346,Thomas Partey,Milieu,26.0,Anglais,18,14,Droite
+347,Declan Rice,Attaquant,30.0,Français,18,28,Droite
+348,Martin Ødegaard,Attaquant,23.0,Anglais,18,7,Droite
+349,Bukayo Saka,Attaquant,18.0,Portugais,18,38,Droite
+350,Gabriel Jesus,Défenseur,36.0,Néerlandais,18,81,Gauche
+351,Kai Havertz,Défenseur,20.0,Espagnol,18,55,Gauche
+352,Leandro Trossard,Attaquant,33.0,Néerlandais,18,90,Droite
+353,Takehiro Tomiyasu,Milieu,35.0,Brésilien,18,55,Droite
+354,Jakub Kiwior,Défenseur,25.0,Anglais,18,54,Droite
+355,Fabio Vieira,Milieu,35.0,Français,18,86,Gauche
+356,Emile Smith Rowe,Attaquant,24.0,Espagnol,18,76,Droite
+357,Jorginho,Gardien,23.0,Anglais,18,62,Gauche
+358,Mohamed Elneny,Défenseur,18.0,Portugais,18,98,Droite
+359,Reiss Nelson,Gardien,24.0,Portugais,18,58,Droite
+360,Cedric Soares,Défenseur,28.0,Espagnol,18,63,Gauche
+361,Aaron Ramsdale,Milieu,26.0,Anglais,19,67,Droite
+362,Ben White,Défenseur,30.0,Espagnol,19,56,Droite
+363,William Saliba,Défenseur,34.0,Français,19,23,Droite
+364,Gabriel Magalhães,Défenseur,24.0,Français,19,6,Droite
+365,Oleksandr Zinchenko,Milieu,33.0,Brésilien,19,31,Droite
+366,Thomas Partey,Milieu,25.0,Anglais,19,78,Droite
+367,Declan Rice,Milieu,20.0,Portugais,19,52,Droite
+368,Martin Ødegaard,Milieu,28.0,Anglais,19,58,Gauche
+369,Bukayo Saka,Milieu,19.0,Brésilien,19,85,Droite
+370,Gabriel Jesus,Attaquant,33.0,Brésilien,19,74,Droite
+371,Kai Havertz,Attaquant,20.0,Néerlandais,19,76,Gauche
+372,Leandro Trossard,Attaquant,28.0,Français,19,1,Gauche
+373,Takehiro Tomiyasu,Attaquant,30.0,Anglais,19,78,Gauche
+374,Jakub Kiwior,Attaquant,25.0,Anglais,19,42,Droite
+375,Fabio Vieira,Attaquant,27.0,Français,19,12,Gauche
+376,Emile Smith Rowe,Milieu,31.0,Anglais,19,11,Gauche
+377,Jorginho,Attaquant,27.0,Brésilien,19,86,Gauche
+378,Mohamed Elneny,Gardien,27.0,Anglais,19,90,Droite
+379,Reiss Nelson,Milieu,30.0,Anglais,19,26,Gauche
+380,Cedric Soares,Gardien,23.0,Néerlandais,19,78,Droite
+381,Aaron Ramsdale,Gardien,35.0,Anglais,20,56,Gauche
+382,Ben White,Attaquant,20.0,Portugais,20,71,Droite
+383,William Saliba,Défenseur,35.0,Portugais,20,47,Droite
+384,Gabriel Magalhães,Attaquant,32.0,Français,20,75,Droite
+385,Oleksandr Zinchenko,Gardien,31.0,Néerlandais,20,87,Droite
+386,Thomas Partey,Attaquant,28.0,Néerlandais,20,92,Gauche
+387,Declan Rice,Attaquant,18.0,Anglais,20,36,Gauche
+388,Martin Ødegaard,Attaquant,30.0,Espagnol,20,17,Droite
+389,Bukayo Saka,Défenseur,36.0,Anglais,20,22,Gauche
+390,Gabriel Jesus,Défenseur,33.0,Néerlandais,20,91,Gauche
+391,Kai Havertz,Gardien,20.0,Anglais,20,85,Droite
+392,Leandro Trossard,Défenseur,18.0,Brésilien,20,92,Gauche
+393,Takehiro Tomiyasu,Gardien,21.0,Brésilien,20,91,Gauche
+394,Jakub Kiwior,Défenseur,19.0,Espagnol,20,39,Gauche
+395,Fabio Vieira,Gardien,34.0,Brésilien,20,95,Gauche
+396,Emile Smith Rowe,Milieu,30.0,Brésilien,20,3,Droite
+397,Jorginho,Milieu,23.0,Brésilien,20,40,Droite
+398,,Milieu,35.0,Français,20,73,Gauche
+399,Reiss Nelson,Défenseur,33.0,Portugais,20,7,Gauche
+400,Cedric Soares,Attaquant,26.0,Portugais,20,95,Gauche
+360,Cedric Soares,Défenseur,28.0,Espagnol,18,63,Gauche
+360,Cedric Soares,Défenseur,28.0,Espagnol,18,63,Gauche
+231,Kai Havertz,Gardien,23.0,Français,12,90,Gauche
+200,Sofyan Amrabat,Attaquant,23.0,Espagnol,10,22,Gauche
+294,Scott McTominay,Défenseur,23.0,Néerlandais,15,95,Droite
+306,Casemiro,Attaquant,24.0,Néerlandais,16,35,Gauche
+384,Gabriel Magalhães,Attaquant,32.0,Français,20,75,Droite
+399,Reiss Nelson,Défenseur,33.0,Portugais,20,7,Gauche
+91,Rasmus Højlund,Attaquant,26.0,Portugais,5,24,Gauche
+241,André Onana,Gardien,31.0,Français,13,30,Droite
+401,Joueur 1300,Gardien,24.0,Anglais,0,25,Droite
+402,Joueur 9833,Attaquant,30.0,Anglais,0,53,Gauche
+403,Joueur 2546,Milieu,20.0,Français,99,48,Droite
+404,Joueur 8854,Gardien,31.0,Français,0,4,Gauche
+405,Joueur 6670,Gardien,28.0,Italien,-1,97,Droite
+406,Joueur 1999,Défenseur,23.0,Italien,0,84,Droite
+407,Joueur 1860,Défenseur,36.0,Français,99,65,Gauche
+408,Joueur 5850,Milieu,35.0,Français,99,41,Droite
+409,Joueur 6101,Défenseur,19.0,Français,0,39,Droite
+410,Joueur 7418,Milieu,28.0,Italien,0,50,Droite

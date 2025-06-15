@@ -1,0 +1,121 @@
+INSERT INTO federation VALUES
+(1, 'Premier League FA', 'Angleterre', 'https://www.premierleague.com', 1992);
+
+SELECT * FROM federation;
+-------------------------------------------------------------------------------------------------------------
+INSERT INTO stade VALUES
+(1, 'Old Trafford', 'Manchester', 74879, 'Sir Matt Busby Way', NULL),
+(2, 'Emirates Stadium', 'London', 60260, 'Hornsey Road', NULL),
+(3, 'Anfield', 'Liverpool', 54074, 'Anfield Road', NULL),
+(4, 'Etihad Stadium', 'Manchester', 53400, 'Ashton New Rd', NULL),
+(5, 'Tottenham Hotspur Stadium', 'London', 62850, '782 High Road', NULL),
+(6, 'Stamford Bridge', 'London', 40343, 'Fulham Road', NULL),
+(7, 'Villa Park', 'Birmingham', 42682, 'Trinity Road', NULL),
+(8, 'Goodison Park', 'Liverpool', 39414, 'Goodison Rd', NULL),
+(9, 'King Power Stadium', 'Leicester', 32312, 'Filbert Way', NULL),
+(10, 'St. James'' Park', 'Newcastle', 52305, 'Barrack Road', NULL),
+(11, 'Selhurst Park', 'London', 25486, 'Holmesdale Rd', NULL),
+(12, 'Elland Road', 'Leeds', 37892, 'Elland Road', NULL),
+(13, 'The City Ground', 'Nottingham', 30445, 'Pavilion Road', NULL),
+(14, 'Bramall Lane', 'Sheffield', 32702, 'John Street', NULL),
+(15, 'Molineux Stadium', 'Wolverhampton', 32050, 'Waterloo Road', NULL),
+(16, 'Turf Moor', 'Burnley', 21944, 'Harry Potts Way', NULL),
+(17, 'Craven Cottage', 'London', 25700, 'Stevenage Road', NULL),
+(18, 'Vitality Stadium', 'Bournemouth', 11329, 'Kings Park', NULL),
+(19, 'Gtech Community Stadium', 'Brentford', 17250, 'Lionel Road', NULL),
+(20, 'Amex Stadium', 'Brighton', 31800, 'Village Way', NULL);
+--------------------------------------------------------------------------------------------------------------
+INSERT INTO equipe VALUES
+(1, 'Manchester United', 'Manchester', 'Erik ten Hag', 1878, 1, 1, NULL),
+(2, 'Arsenal', 'London', 'Mikel Arteta', 1886, 2, 1, NULL),
+(3, 'Liverpool', 'Liverpool', 'Jürgen Klopp', 1892, 3, 1, NULL),
+(4, 'Manchester City', 'Manchester', 'Pep Guardiola', 1880, 4, 1, NULL),
+(5, 'Tottenham Hotspur', 'London', 'Ange Postecoglou', 1882, 5, 1, NULL),
+(6, 'Chelsea', 'London', 'Mauricio Pochettino', 1905, 6, 1, NULL),
+(7, 'Aston Villa', 'Birmingham', 'Unai Emery', 1874, 7, 1, NULL),
+(8, 'Everton', 'Liverpool', 'Sean Dyche', 1878, 8, 1, NULL),
+(9, 'Leicester City', 'Leicester', 'Enzo Maresca', 1884, 9, 1, NULL),
+(10, 'Newcastle United', 'Newcastle', 'Eddie Howe', 1892, 10, 1, NULL),
+(11, 'Crystal Palace', 'London', 'Roy Hodgson', 1905, 11, 1, NULL),
+(12, 'Leeds United', 'Leeds', 'Daniel Farke', 1919, 12, 1, NULL),
+(13, 'Nottingham Forest', 'Nottingham', 'Steve Cooper', 1865, 13, 1, NULL),
+(14, 'Sheffield United', 'Sheffield', 'Chris Wilder', 1889, 14, 1, NULL),
+(15, 'Wolverhampton Wanderers', 'Wolverhampton', 'Gary O\'Neil', 1877, 15, 1, NULL),
+(16, 'Burnley', 'Burnley', 'Vincent Kompany', 1882, 16, 1, NULL),
+(17, 'Fulham', 'London', 'Marco Silva', 1879, 17, 1, NULL),
+(18, 'Bournemouth', 'Bournemouth', 'Andoni Iraola', 1899, 18, 1, NULL),
+(19, 'Brentford', 'London', 'Thomas Frank', 1889, 19, 1, NULL),
+(20, 'Brighton & Hove Albion', 'Brighton', 'Roberto De Zerbi', 1901, 20, 1, NULL);
+-------------------------------------------------------------------------------------------------
+INSERT INTO arbitre VALUES
+(1, 'Anthony Taylor', 'Anglais', '1978-10-20', 'FIFA'),
+(2, 'Michael Oliver', 'Anglais', '1985-02-20', 'FIFA'),
+(3, 'Paul Tierney', 'Anglais', '1980-12-25', 'FIFA'),
+(4, 'Chris Kavanagh', 'Anglais', '1985-09-04', 'FIFA'),
+(5, 'Simon Hooper', 'Anglais', '1982-07-15', 'National'),
+(6, 'John Brooks', 'Anglais', '1990-06-14', 'National'),
+(7, 'Andy Madley', 'Anglais', '1983-09-05', 'FIFA'),
+(8, 'Peter Bankes', 'Anglais', '1982-05-18', 'National'),
+(9, 'David Coote', 'Anglais', '1982-08-17', 'National'),
+(10, 'Robert Jones', 'Anglais', '1987-05-21', 'FIFA');
+
+  INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10001, 'Ederson', 'Gardien', 30, 'Brésilien', 4, 31, 'Gauche');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10002, 'Kyle Walker', 'Défenseur', 33, 'Anglais', 4, 2, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10003, 'John Stones', 'Défenseur', 30, 'Anglais', 4, 5, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10004, 'Rúben Dias', 'Défenseur', 27, 'Portugais', 4, 3, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10005, 'Manuel Akanji', 'Défenseur', 28, 'Suisse', 4, 25, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10006, 'Rodri', 'Milieu', 27, 'Espagnol', 4, 16, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10007, 'Kevin De Bruyne', 'Milieu', 32, 'Belge', 4, 17, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10008, 'İlkay Gündoğan', 'Milieu', 33, 'Allemand', 4, 8, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10009, 'Bernardo Silva', 'Milieu', 29, 'Portugais', 4, 20, 'Gauche');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10010, 'Phil Foden', 'Milieu', 24, 'Anglais', 4, 47, 'Gauche');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10011, 'Riyad Mahrez', 'Attaquant', 33, 'Algérien', 4, 26, 'Gauche');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10012, 'Erling Haaland', 'Attaquant', 24, 'Norvégien', 4, 9, 'Gauche');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10013, 'Julian Alvarez', 'Attaquant', 24, 'Argentin', 4, 19, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10014, 'Jack Grealish', 'Attaquant', 29, 'Anglais', 4, 10, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10015, 'Mateo Kovacic', 'Milieu', 30, 'Croate', 4, 8, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10016, 'Nathan Aké', 'Défenseur', 29, 'Néerlandais', 4, 6, 'Gauche');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10017, 'Zack Steffen', 'Gardien', 28, 'Américain', 4, 13, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10018, 'Sergio Gómez', 'Défenseur', 23, 'Espagnol', 4, 21, 'Gauche');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10019, 'Kalvin Phillips', 'Milieu', 28, 'Anglais', 4, 4, 'Droite');
+
+INSERT INTO joueur (joueur_id, nom_joueur, poste, age, nationalite, equipe_id, numero_maillot, pied_fort)
+VALUES (10020, 'Stefan Ortega', 'Gardien', 31, 'Allemand', 4, 18, 'Droite');
+

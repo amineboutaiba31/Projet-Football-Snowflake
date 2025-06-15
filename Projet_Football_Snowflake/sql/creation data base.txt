@@ -1,0 +1,5 @@
+--CRÉER UNE BASE DE DONNÉES ET SCHEMA
+CREATE OR REPLACE DATABASE football_championnat;
+USE DATABASE football_championnat;
+CREATE OR REPLACE SCHEMA premier_league;
+USE SCHEMA premier_league;

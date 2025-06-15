@@ -1,0 +1,49 @@
+
+-- Arbitre
+CREATE OR REPLACE USER arbitre1
+PASSWORD = 'Arbitre123!'
+DEFAULT_ROLE = role_arbitre
+DEFAULT_WAREHOUSE = COMPUTE_WH;
+GRANT ROLE role_arbitre TO USER arbitre1;
+-- Accorder usage de la base et du schéma
+GRANT USAGE ON DATABASE football_championnat TO role_arbitre;
+GRANT USAGE ON SCHEMA football_championnat.premier_league TO role_arbitre;
+
+-- Accorder accès aux objets nécessaires dans le schéma
+GRANT INSERT, UPDATE ON TABLE football_championnat.premier_league.match TO role_arbitre;
+GRANT SELECT ON TABLE football_championnat.premier_league.match TO role_arbitre;  -- optionnel
+
+-- Accorder l’accès à COMPUTE_WH pour tous tes rôles
+GRANT USAGE ON WAREHOUSE COMPUTE_WH TO ROLE role_arbitre;
+GRANT USAGE ON WAREHOUSE COMPUTE_WH TO ROLE role_federation;
+GRANT USAGE ON WAREHOUSE COMPUTE_WH TO ROLE role_entraineur;
+GRANT USAGE ON WAREHOUSE COMPUTE_WH TO ROLE role_joueur;
+GRANT USAGE ON WAREHOUSE COMPUTE_WH TO ROLE role_president;
+
+-- Fédération
+CREATE OR REPLACE USER federation1
+PASSWORD = 'Federation123!'
+DEFAULT_ROLE = role_federation
+DEFAULT_WAREHOUSE = COMPUTE_WH;
+GRANT ROLE role_federation TO USER federation1;
+
+-- Entraîneur
+CREATE OR REPLACE USER entraineur1
+PASSWORD = 'Coach123!'
+DEFAULT_ROLE = role_entraineur
+DEFAULT_WAREHOUSE = COMPUTE_WH;
+GRANT ROLE role_entraineur TO USER entraineur1;
+
+-- Joueur
+CREATE OR REPLACE USER joueur1
+PASSWORD = 'Joueur123!'
+DEFAULT_ROLE = role_joueur
+DEFAULT_WAREHOUSE = COMPUTE_WH;
+GRANT ROLE role_joueur TO USER joueur1;
+
+-- Président
+CREATE OR REPLACE USER president1
+PASSWORD = 'President123!'
+DEFAULT_ROLE = role_president
+DEFAULT_WAREHOUSE = COMPUTE_WH;
+GRANT ROLE role_president TO USER president1;

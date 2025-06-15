@@ -1,0 +1,125 @@
+-- Table federation
+CREATE TABLE federation (
+    federation_id INT PRIMARY KEY,
+    nom VARCHAR,
+    pays VARCHAR,
+    site_web VARCHAR,
+    annee_creation INT
+);
+
+-- Table stade
+CREATE TABLE stade (
+    stade_id INT PRIMARY KEY,
+    nom_stade VARCHAR,
+    ville VARCHAR,
+    capacite INT,
+    adresse VARCHAR,
+    equipe_residente INT
+);
+
+-- Table equipe
+CREATE TABLE equipe (
+    equipe_id INT PRIMARY KEY,
+    nom_equipe VARCHAR,
+    ville VARCHAR,
+    coach VARCHAR,
+    annee_fondation INT,
+    stade_id INT,
+    federation_id INT,
+    logo_url VARCHAR,
+    FOREIGN KEY (stade_id) REFERENCES stade(stade_id),
+    FOREIGN KEY (federation_id) REFERENCES federation(federation_id)
+);
+
+-- Table arbitre
+CREATE TABLE arbitre (
+    arbitre_id INT PRIMARY KEY,
+    nom_arbitre VARCHAR,
+    nationalite VARCHAR,
+    date_naissance DATE,
+    niveau VARCHAR
+);
+
+-- Table joueur
+CREATE TABLE joueur (
+    joueur_id INT PRIMARY KEY,
+    nom_joueur VARCHAR,
+    poste VARCHAR,
+    age INT,
+    nationalite VARCHAR,
+    equipe_id INT,
+    numero_maillot INT,
+    pied_fort VARCHAR,
+    FOREIGN KEY (equipe_id) REFERENCES equipe(equipe_id)
+);
+
+-- Table calendrier
+CREATE TABLE calendrier (
+    calendrier_id INT PRIMARY KEY,
+    date_match DATE,
+    heure_match TIME,
+    journee INT,
+    saison VARCHAR,
+    equipe_dom_id INT,
+    equipe_ext_id INT,
+    stade_id INT,
+    FOREIGN KEY (equipe_dom_id) REFERENCES equipe(equipe_id),
+    FOREIGN KEY (equipe_ext_id) REFERENCES equipe(equipe_id),
+    FOREIGN KEY (stade_id) REFERENCES stade(stade_id)
+);
+
+-- Table match
+CREATE TABLE match (
+    match_id INT PRIMARY KEY,
+    calendrier_id INT,
+    score_dom INT,
+    score_ext INT,
+    arbitre_id INT,
+    FOREIGN KEY (calendrier_id) REFERENCES calendrier(calendrier_id),
+    FOREIGN KEY (arbitre_id) REFERENCES arbitre(arbitre_id)
+);
+
+-- Table statistiques_match
+CREATE TABLE statistiques_match (
+    stat_id INT PRIMARY KEY,
+    match_id INT,
+    equipe_id INT,
+    possession DECIMAL(5,2),
+    tirs INT,
+    tirs_cadres INT,
+    fautes INT,
+    cartons_jaunes INT,
+    cartons_rouges INT,
+    corners INT,
+    FOREIGN KEY (match_id) REFERENCES match(match_id),
+    FOREIGN KEY (equipe_id) REFERENCES equipe(equipe_id)
+);
+
+-- Table but
+CREATE TABLE but (
+    but_id INT PRIMARY KEY,
+    match_id INT,
+    joueur_id INT,
+    minute INT,
+    type_but VARCHAR,
+    equipe_id INT,
+    FOREIGN KEY (match_id) REFERENCES match(match_id),
+    FOREIGN KEY (joueur_id) REFERENCES joueur(joueur_id),
+    FOREIGN KEY (equipe_id) REFERENCES equipe(equipe_id)
+);
+
+-- Table classement
+CREATE TABLE classement (
+    classement_id INT PRIMARY KEY,
+    equipe_id INT,
+    saison VARCHAR,
+    position INT,
+    points INT,
+    matchs_joues INT,
+    victoires INT,
+    defaites INT,
+    nuls INT,
+    buts_marques INT,
+    buts_encaisses INT,
+    FOREIGN KEY (equipe_id) REFERENCES equipe(equipe_id)
+);

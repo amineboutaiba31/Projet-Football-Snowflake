@@ -1,0 +1,45 @@
+--  CRÉATION DES RÔLES
+
+-- Arbitre : gestion des résultats de matchs
+CREATE OR REPLACE ROLE role_arbitre;
+GRANT INSERT, UPDATE ON premier_league.match TO role_arbitre;
+
+-- ✅ Accès au schéma et création de procédures
+GRANT USAGE, CREATE PROCEDURE ON SCHEMA premier_league TO ROLE role_arbitre;
+
+-- ✅ Autoriser la création de tâches
+GRANT CREATE TASK ON SCHEMA premier_league TO ROLE role_arbitre;
+
+-- ✅ Accès général
+GRANT USAGE ON DATABASE football_championnat TO ROLE role_arbitre;
+GRANT USAGE ON SCHEMA premier_league TO ROLE role_arbitre;
+
+-- ✅ Accès aux tables
+GRANT SELECT, INSERT, UPDATE ON TABLE premier_league.match TO ROLE role_arbitre;
+GRANT SELECT ON TABLE premier_league.calendrier TO ROLE role_arbitre;
+
+-- ✅ Mise à jour du classement autorisée
+GRANT SELECT, INSERT, UPDATE ON TABLE premier_league.classement TO ROLE role_arbitre;
+
+
+
+-- Fédération : accès au classement, statistiques, calendrier
+CREATE OR REPLACE ROLE role_federation;
+GRANT SELECT, INSERT, UPDATE ON premier_league.classement TO role_federation;
+GRANT SELECT, INSERT, UPDATE ON premier_league.statistiques_match TO role_federation;
+GRANT SELECT, INSERT, UPDATE ON premier_league.calendrier TO role_federation;
+
+-- Entraîneur : lecture seule sur toutes les tables
+CREATE OR REPLACE ROLE role_entraineur;
+GRANT USAGE ON SCHEMA premier_league TO role_entraineur;
+GRANT SELECT ON ALL TABLES IN SCHEMA premier_league TO role_entraineur;
+
+-- Joueur : lecture seule
+CREATE OR REPLACE ROLE role_joueur;
+GRANT USAGE ON SCHEMA premier_league TO role_joueur;
+GRANT SELECT ON ALL TABLES IN SCHEMA premier_league TO role_joueur;
+
+-- Président : gestion des équipes
+CREATE OR REPLACE ROLE role_president;
+GRANT INSERT, UPDATE, DELETE ON premier_league.equipe TO role_president;
+
